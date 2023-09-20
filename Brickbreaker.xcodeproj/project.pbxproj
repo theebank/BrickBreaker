@@ -7,7 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3BFAC122ABA271300318211 /* interactions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3BFAC102ABA271300318211 /* interactions.cpp */; };
+		F3BFAC152ABA387E00318211 /* brick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3BFAC132ABA387E00318211 /* brick.cpp */; };
+		F3BFAC192ABA676F00318211 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3BFAC172ABA676F00318211 /* game.cpp */; };
+		F3DA23DE2ABA105B00636418 /* background.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3DA23DC2ABA105B00636418 /* background.cpp */; };
+		F3DA23E22ABA127E00636418 /* ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3DA23E02ABA127E00636418 /* ball.cpp */; };
+		F3DA23E52ABA14B000636418 /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3DA23E32ABA14B000636418 /* entity.cpp */; };
+		F3DA23E82ABA169600636418 /* paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3DA23E62ABA169600636418 /* paddle.cpp */; };
 		F3E914062AB8CC7800E676A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3E914052AB8CC7800E676A6 /* main.cpp */; };
+		F3E9141B2AB8CC9E00E676A6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9140E2AB8CC9D00E676A6 /* OpenAL.framework */; };
+		F3E9141C2AB8CC9E00E676A6 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9140F2AB8CC9D00E676A6 /* sfml-audio.framework */; };
+		F3E9141D2AB8CC9E00E676A6 /* ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914102AB8CC9E00E676A6 /* ogg.framework */; };
+		F3E9141E2AB8CC9E00E676A6 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914112AB8CC9E00E676A6 /* sfml-graphics.framework */; };
+		F3E9141F2AB8CC9E00E676A6 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914122AB8CC9E00E676A6 /* sfml-system.framework */; };
+		F3E914202AB8CC9E00E676A6 /* vorbisfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914132AB8CC9E00E676A6 /* vorbisfile.framework */; };
+		F3E914212AB8CC9E00E676A6 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914142AB8CC9E00E676A6 /* SFML.framework */; };
+		F3E914222AB8CC9E00E676A6 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914152AB8CC9E00E676A6 /* freetype.framework */; };
+		F3E914232AB8CC9E00E676A6 /* vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914162AB8CC9E00E676A6 /* vorbis.framework */; };
+		F3E914242AB8CC9E00E676A6 /* FLAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914172AB8CC9E00E676A6 /* FLAC.framework */; };
+		F3E914252AB8CC9E00E676A6 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914182AB8CC9E00E676A6 /* sfml-network.framework */; };
+		F3E914262AB8CC9E00E676A6 /* vorbisenc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E914192AB8CC9E00E676A6 /* vorbisenc.framework */; };
+		F3E914272AB8CC9E00E676A6 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9141A2AB8CC9E00E676A6 /* sfml-window.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +43,39 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F3BFAC102ABA271300318211 /* interactions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = interactions.cpp; sourceTree = "<group>"; };
+		F3BFAC112ABA271300318211 /* interactions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = interactions.hpp; sourceTree = "<group>"; };
+		F3BFAC132ABA387E00318211 /* brick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = brick.cpp; sourceTree = "<group>"; };
+		F3BFAC142ABA387E00318211 /* brick.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = brick.hpp; sourceTree = "<group>"; };
+		F3BFAC162ABA391100318211 /* brick01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick01.png; sourceTree = "<group>"; };
+		F3BFAC172ABA676F00318211 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		F3BFAC182ABA676F00318211 /* game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = game.hpp; sourceTree = "<group>"; };
+		F3DA23DA2ABA102600636418 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		F3DA23DB2ABA104A00636418 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		F3DA23DC2ABA105B00636418 /* background.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = background.cpp; sourceTree = "<group>"; };
+		F3DA23DD2ABA105B00636418 /* background.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = background.hpp; sourceTree = "<group>"; };
+		F3DA23DF2ABA108900636418 /* entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entity.h; sourceTree = "<group>"; };
+		F3DA23E02ABA127E00636418 /* ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ball.cpp; sourceTree = "<group>"; };
+		F3DA23E12ABA127E00636418 /* ball.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ball.hpp; sourceTree = "<group>"; };
+		F3DA23E32ABA14B000636418 /* entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entity.cpp; sourceTree = "<group>"; };
+		F3DA23E62ABA169600636418 /* paddle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = paddle.cpp; sourceTree = "<group>"; };
+		F3DA23E72ABA169600636418 /* paddle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = paddle.hpp; sourceTree = "<group>"; };
 		F3E914022AB8CC7800E676A6 /* Brickbreaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Brickbreaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E914052AB8CC7800E676A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F3E9140C2AB8CC7E00E676A6 /* Brickbreaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Brickbreaker.entitlements; sourceTree = "<group>"; };
+		F3E9140E2AB8CC9D00E676A6 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = ../../../../../../Library/Frameworks/OpenAL.framework; sourceTree = "<group>"; };
+		F3E9140F2AB8CC9D00E676A6 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		F3E914102AB8CC9E00E676A6 /* ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ogg.framework; path = ../../../../../../Library/Frameworks/ogg.framework; sourceTree = "<group>"; };
+		F3E914112AB8CC9E00E676A6 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		F3E914122AB8CC9E00E676A6 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		F3E914132AB8CC9E00E676A6 /* vorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisfile.framework; path = ../../../../../../Library/Frameworks/vorbisfile.framework; sourceTree = "<group>"; };
+		F3E914142AB8CC9E00E676A6 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		F3E914152AB8CC9E00E676A6 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = freetype.framework; path = ../../../../../../Library/Frameworks/freetype.framework; sourceTree = "<group>"; };
+		F3E914162AB8CC9E00E676A6 /* vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbis.framework; path = ../../../../../../Library/Frameworks/vorbis.framework; sourceTree = "<group>"; };
+		F3E914172AB8CC9E00E676A6 /* FLAC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAC.framework; path = ../../../../../../Library/Frameworks/FLAC.framework; sourceTree = "<group>"; };
+		F3E914182AB8CC9E00E676A6 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		F3E914192AB8CC9E00E676A6 /* vorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vorbisenc.framework; path = ../../../../../../Library/Frameworks/vorbisenc.framework; sourceTree = "<group>"; };
+		F3E9141A2AB8CC9E00E676A6 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +83,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E9141B2AB8CC9E00E676A6 /* OpenAL.framework in Frameworks */,
+				F3E9141C2AB8CC9E00E676A6 /* sfml-audio.framework in Frameworks */,
+				F3E9141D2AB8CC9E00E676A6 /* ogg.framework in Frameworks */,
+				F3E9141E2AB8CC9E00E676A6 /* sfml-graphics.framework in Frameworks */,
+				F3E9141F2AB8CC9E00E676A6 /* sfml-system.framework in Frameworks */,
+				F3E914202AB8CC9E00E676A6 /* vorbisfile.framework in Frameworks */,
+				F3E914212AB8CC9E00E676A6 /* SFML.framework in Frameworks */,
+				F3E914222AB8CC9E00E676A6 /* freetype.framework in Frameworks */,
+				F3E914232AB8CC9E00E676A6 /* vorbis.framework in Frameworks */,
+				F3E914242AB8CC9E00E676A6 /* FLAC.framework in Frameworks */,
+				F3E914252AB8CC9E00E676A6 /* sfml-network.framework in Frameworks */,
+				F3E914262AB8CC9E00E676A6 /* vorbisenc.framework in Frameworks */,
+				F3E914272AB8CC9E00E676A6 /* sfml-window.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +107,7 @@
 			children = (
 				F3E914042AB8CC7800E676A6 /* Brickbreaker */,
 				F3E914032AB8CC7800E676A6 /* Products */,
+				F3E9140D2AB8CC9D00E676A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +122,47 @@
 		F3E914042AB8CC7800E676A6 /* Brickbreaker */ = {
 			isa = PBXGroup;
 			children = (
+				F3BFAC162ABA391100318211 /* brick01.png */,
+				F3DA23DB2ABA104A00636418 /* background.jpg */,
+				F3E9140C2AB8CC7E00E676A6 /* Brickbreaker.entitlements */,
 				F3E914052AB8CC7800E676A6 /* main.cpp */,
+				F3DA23DA2ABA102600636418 /* constants.h */,
+				F3DA23DC2ABA105B00636418 /* background.cpp */,
+				F3DA23E02ABA127E00636418 /* ball.cpp */,
+				F3DA23E12ABA127E00636418 /* ball.hpp */,
+				F3BFAC132ABA387E00318211 /* brick.cpp */,
+				F3BFAC142ABA387E00318211 /* brick.hpp */,
+				F3BFAC172ABA676F00318211 /* game.cpp */,
+				F3BFAC182ABA676F00318211 /* game.hpp */,
+				F3DA23E62ABA169600636418 /* paddle.cpp */,
+				F3DA23E72ABA169600636418 /* paddle.hpp */,
+				F3DA23DF2ABA108900636418 /* entity.h */,
+				F3BFAC102ABA271300318211 /* interactions.cpp */,
+				F3BFAC112ABA271300318211 /* interactions.hpp */,
+				F3DA23E32ABA14B000636418 /* entity.cpp */,
+				F3DA23DD2ABA105B00636418 /* background.hpp */,
 			);
 			path = Brickbreaker;
+			sourceTree = "<group>";
+		};
+		F3E9140D2AB8CC9D00E676A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E914172AB8CC9E00E676A6 /* FLAC.framework */,
+				F3E914152AB8CC9E00E676A6 /* freetype.framework */,
+				F3E914102AB8CC9E00E676A6 /* ogg.framework */,
+				F3E9140E2AB8CC9D00E676A6 /* OpenAL.framework */,
+				F3E9140F2AB8CC9D00E676A6 /* sfml-audio.framework */,
+				F3E914112AB8CC9E00E676A6 /* sfml-graphics.framework */,
+				F3E914182AB8CC9E00E676A6 /* sfml-network.framework */,
+				F3E914122AB8CC9E00E676A6 /* sfml-system.framework */,
+				F3E9141A2AB8CC9E00E676A6 /* sfml-window.framework */,
+				F3E914142AB8CC9E00E676A6 /* SFML.framework */,
+				F3E914162AB8CC9E00E676A6 /* vorbis.framework */,
+				F3E914192AB8CC9E00E676A6 /* vorbisenc.framework */,
+				F3E914132AB8CC9E00E676A6 /* vorbisfile.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DA23E52ABA14B000636418 /* entity.cpp in Sources */,
+				F3DA23E82ABA169600636418 /* paddle.cpp in Sources */,
+				F3BFAC122ABA271300318211 /* interactions.cpp in Sources */,
+				F3BFAC192ABA676F00318211 /* game.cpp in Sources */,
 				F3E914062AB8CC7800E676A6 /* main.cpp in Sources */,
+				F3DA23DE2ABA105B00636418 /* background.cpp in Sources */,
+				F3DA23E22ABA127E00636418 /* ball.cpp in Sources */,
+				F3BFAC152ABA387E00318211 /* brick.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +348,15 @@
 		F3E9140A2AB8CC7800E676A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Brickbreaker/Brickbreaker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L3F248TWG2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,9 +364,15 @@
 		F3E9140B2AB8CC7800E676A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Brickbreaker/Brickbreaker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L3F248TWG2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

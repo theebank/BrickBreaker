@@ -1,14 +1,21 @@
-//
-//  main.cpp
-//  Brickbreaker
-//
-//  Created by Theeban Kumaresan on 2023-09-18.
-//
-
+#include <SFML/Graphics.hpp>
 #include <iostream>
+#include <vector>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#include <string>
+#include "constants.h"
+#include "background.hpp"
+#include "ball.hpp"
+#include "interactions.hpp"
+#include "paddle.hpp"
+#include "brick.hpp"
+
+#include "game.hpp"
+
+
+
+int main() {
+    game game;
+    game.reset();
+    game.run();
 }
